@@ -1,0 +1,63 @@
+{
+  "name": "Vector Creator",
+  "short_name": "Vector Creator",
+  "description": "Unbegrenzte Vektor-Illustrations- und Design-App mit Bézier-Pfaden, Echtzeit-Symmetrie, Perspektiv-Hilfslinien, Ebenen und SVG/PNG-Export.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111215",
+  "theme_color": "#111215",
+  "lang": "de",
+  "scope": "/",
+  "id": "/",
+  "orientation": "any",
+  "categories": ["design", "graphics", "productivity"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-wide.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Vector Creator Studio Arbeitsbereich auf dem Desktop"
+    },
+    {
+      "src": "/screenshots/mobile-narrow.jpg",
+      "sizes": "1080x2340",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Vektor-Zeichenwerkzeuge und Bézier-Pfade auf dem Smartphone"
+    },
+    {
+      "src": "/screenshots/mobile-tools-narrow.jpg",
+      "sizes": "1080x2098",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Ebenen, Symmetrie und Werkzeugeinstellungen in der mobilen Ansicht"
+    }
+  ]
+}

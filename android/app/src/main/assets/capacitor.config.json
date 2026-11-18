@@ -1,0 +1,12 @@
+{
+	"appId": "de.vektorastudio.vectorcreator",
+	"appName": "Vector Creator",
+	"webDir": "dist",
+	"backgroundColor": "#111215",
+	"android": {
+		"backgroundColor": "#111215",
+		"allowMixedContent": false,
+		"captureInput": true,
+		"webContentsDebuggingEnabled": false
+	}
+}

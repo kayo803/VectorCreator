@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Vector Creator</string>
+    <string name="title_activity_main">Vector Creator</string>
+    <string name="package_name">de.vektorastudio.vectorcreator</string>
+    <string name="custom_url_scheme">de.vektorastudio.vectorcreator</string>
+</resources>

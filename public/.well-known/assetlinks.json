@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.run.europe_west2.ais_pre_ixthbkcuialajw5y26sfeg_869538812201.twa",
+      "sha256_cert_fingerprints": [
+        "E0:D6:21:72:FF:B8:D0:7E:E5:B3:E7:58:F0:E7:BD:C3:CA:04:E1:1A:1F:BC:D1:66:AB:D4:F3:D7:6D:E9:D8:BA"
+      ]
+    }
+  }
+]
