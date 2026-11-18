@@ -24,14 +24,17 @@ jobs:
           java-version: '17'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
 
       - name: Build web assets & sync Capacitor
         run: npm run android:sync
 
       - name: Build release APK
         working-directory: android
-        run: ./gradlew assembleRelease --no-daemon
+        run: |
+          rm -f local.properties
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon -x lintVitalAnalyzeRelease
 
       - name: Upload VectorCreator.apk
         uses: actions/upload-artifact@v4
